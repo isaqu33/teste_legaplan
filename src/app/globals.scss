@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "@fontsource/inter-tight/index.css";
+
+$background-light: #ffffff;
+$background-dark: #171717;
+$font-geral: #000000;
+
+:root {
+  --background: $background-light;
+  --foreground: $background-dark;
+}
+
+body {
+  color: var(--background);
+  background: var(--background);
+  font-family: 'Inter Tight', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.generalcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
